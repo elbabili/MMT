@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF4E8"
+        tools:context="fr.mosquee_mirail_toulouse.mmt.MainActivity">
+        <!--include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" /-->
+        <ImageButton
+            android:id="@+id/btnSite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/tableau"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="#FAF4E8"
+            android:padding="5dp"
+            app:srcCompat="@drawable/image_home" />
+
+        <TableLayout
+            android:id="@+id/tableau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@id/btnSite"
+            >
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btnActu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:background="@android:color/transparent"
+                    app:srcCompat="@drawable/image_actu" />
+                <ImageButton
+                    android:id="@+id/btnDjanaza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    app:srcCompat="@drawable/image_djanaza"
+                    android:background="@android:color/transparent"/>
+            </TableRow>
+
+            <TableRow>
+                <ImageButton
+                    android:id="@+id/btnSalat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    app:srcCompat="@drawable/image_salat"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/btnDon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    app:srcCompat="@drawable/image_don"
+                    android:background="@android:color/transparent"/>
+            </TableRow>
+        </TableLayout>
+
+            <fragment
+                android:id="@+id/fragment"
+                android:name="fr.mosquee_mirail_toulouse.mmt.PrayerFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_prayer"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/tableau"/>
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/header"
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        app:menu="@menu/main_menu" />
+
+</android.support.v4.widget.DrawerLayout>
+
+    <!--
+       <LinearLayout
+           android:layout_gravity="start"
+           android:orientation="vertical"
+           android:background="#FFFFFFFF"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtViewFirst"
+               android:gravity="center"
+               android:padding="15dp"
+               android:textSize="20dp"
+               android:text="ACCUEIL"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtViewSecond"
+               android:padding="15dp"
+               android:textSize="20dp"
+               android:gravity="center"
+               android:text="MMT 1.0"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtViewThird"
+               android:padding="15dp"
+               android:textSize="20dp"
+               android:gravity="center"
+               android:text="CONTACT"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/txtViewFour"
+               android:padding="15dp"
+               android:textSize="20dp"
+               android:gravity="center"
+               android:text="FACEBOOK"/>
+       </LinearLayout>
+   -->

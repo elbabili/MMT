@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name"> MMT 1.0 </string>
+
+    <string name="strFajr">Fajr</string>
+    <string name="strChourouk">Churuk</string>
+    <string name="strDohor">Dohor</string>
+    <string name="strAsr">Asr</string>
+    <string name="strMaghreb">Maghreb</string>
+    <string name="strIchaa">Ichaa</string>
+
+
+    <string name="colorGreen">#94A834</string>
+    <string name="colorBurg">#8D3457</string>
+    <string name="colorGray">#B1A8A1</string>
+
+    <string name="colorWhite">#FFFFFF</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF4E8"
+    tools:context="fr.mosquee_mirail_toulouse.mmt.SalatActivity">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="fr.mosquee_mirail_toulouse.mmt.PrayerFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        tools:layout="@layout/fragment_prayer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Temps restant avant la prochaine prière :"
+        android:gravity="center"
+        android:layout_below="@+id/fragment2"
+        android:layout_alignRight="@+id/fragment2"
+        android:layout_alignEnd="@+id/fragment2"
+        android:layout_alignLeft="@+id/fragment2"
+        android:layout_alignStart="@+id/fragment2" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='"SALAT"'
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="35dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timer"
+        android:ems="10"
+        android:inputType="textMultiLine"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+         />
+
+</RelativeLayout>

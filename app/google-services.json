@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "438057663579",
+    "firebase_url": "https://mmtestfb-98f4a.firebaseio.com",
+    "project_id": "mmtestfb-98f4a",
+    "storage_bucket": "mmtestfb-98f4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438057663579:android:95ccd8b1cc14dd87",
+        "android_client_info": {
+          "package_name": "fr.mosquee_mirail_toulouse.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438057663579-cke69e0ppj5ic6o7bgort0i0gbimfeot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.mosquee_mirail_toulouse.testfirebase",
+            "certificate_hash": "de21f97383244f7d421bb630a8544b82bcaf0828"
+          }
+        },
+        {
+          "client_id": "438057663579-c4i68444lnjpds9dsbu3n4bdmo42fqi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Duo0IIEA0q8jiZQuoR46Zv7uWTIc9g4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438057663579-c4i68444lnjpds9dsbu3n4bdmo42fqi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:438057663579:android:c2f9544b7a8176e3",
+        "android_client_info": {
+          "package_name": "fr.mosquee_mirail_toulouse.mmt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "438057663579-eh1b2im0j2qjt6t79236opku73gri8pp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fr.mosquee_mirail_toulouse.mmt",
+            "certificate_hash": "de21f97383244f7d421bb630a8544b82bcaf0828"
+          }
+        },
+        {
+          "client_id": "438057663579-c4i68444lnjpds9dsbu3n4bdmo42fqi0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Duo0IIEA0q8jiZQuoR46Zv7uWTIc9g4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "438057663579-c4i68444lnjpds9dsbu3n4bdmo42fqi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

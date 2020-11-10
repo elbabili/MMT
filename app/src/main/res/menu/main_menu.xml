@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+ <!--   <item android:id="@+id/hamburgerMenu"
+        android:title=""
+        android:icon="@drawable/hamburger"
+        app:showAsAction="always"></item>
+-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="ACCUEIL" />
+        <item
+            android:id="@+id/nav_mmt"
+            android:title="MMT 1.0" />
+        <item
+            android:id="@+id/nav_contact"
+            android:title="CONTACT" />
+        <item
+            android:id="@+id/nav_facebook"
+            android:title="FACEBOOK" />
+    </group>
+
+
+  <!--  <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_menu_add"
+        android:title="ifRoom"
+        android:showAsAction="ifRoom"></item>
+
+    <item android:id="@+id/action_delete"
+        android:icon="@drawable/ic_menu_delete"
+        android:title="Delete"
+        android:showAsAction="never"></item>
+-->
+</menu>

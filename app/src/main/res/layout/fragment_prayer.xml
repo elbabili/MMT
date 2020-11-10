@@ -1,0 +1,165 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="fr.mosquee_mirail_toulouse.mmt.PrayerFragment">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tvFajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#94A834"
+
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:text="Fajr "
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvChourouk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#cac5c0"
+
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:text="@string/strChourouk"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/tvDohor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#94A834"
+
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:text="@string/strDohor"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/tvAsr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#cac5c0"
+
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:text=" Asr "
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/tvMaghreb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#94A834"
+
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:text="@string/strMaghreb"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/tvIchaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#cac5c0"
+
+            android:textSize="15sp"
+            android:padding="3dp"
+            android:text="@string/strIchaa"
+            android:textAlignment="center"
+             />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/editFajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="15sp"
+            android:textColor="#8D3457"
+            android:background="#94A834"
+            android:padding="3dp"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/editChourouk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="15sp"
+            android:textColor="#8D3457"
+            android:background="#cac5c0"
+            android:padding="3dp"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/editDohor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="15sp"
+            android:textColor="#8D3457"
+            android:background="#94A834"
+            android:padding="3dp"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/editAsr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="15sp"
+            android:textColor="#8D3457"
+            android:background="#cac5c0"
+            android:padding="3dp"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/editMaghreb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="15sp"
+            android:textColor="#8D3457"
+            android:background="#94A834"
+            android:padding="3dp"
+            android:textAlignment="center"
+             />
+
+        <TextView
+            android:id="@+id/editIchaa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:textSize="15sp"
+            android:textColor="#8D3457"
+            android:background="#cac5c0"
+            android:padding="3dp"
+            android:textAlignment="center"
+             />
+    </TableRow>
+</TableLayout>

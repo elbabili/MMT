@@ -1,0 +1,19 @@
+﻿
+<html> <b>Méthode de calcul des horaires de prière pour Toulouse et sa région.</b>  </html>
+
+Les horaires de prières font l’objet de divergences. Deux raisons principales expliquent ces divergences :
+– l’absence d’unité et d’autorité respectée qui fédère les musulmans.
+– la diversité des méthodes employées pour calculer ces horaires.
+Dans un souci de pacification de nos âmes et de tolérance, il n’est pas inutile de rappeler l’origine de la diversité des horaires de prières trouvés sur internet et dans les mosquées ; elle tire sa source dans la divergence des écoles juridiques (« mazhabs ») quant à la définition des heures, notamment de celles de l’aube (« Fajr » ou « Cubh ») et du soir (« ‘Icha »).
+
+Toutes deux se basent sur l’observation de l’apparition et de la disparition du « chafaq », teinte rouge et blanche accompagnant l’arrivée de l’aube et de la nuit. Pour l’aube, il y a, selon le hadith, deux Cubh, connus comme le « câdiq » (véridique) et le « kadhib » (le faux).
+
+Le premier correspond à l’ « imsak » (l’abstinence) marquant la fin de la période où on peut manger pendant le mois de Ramadhân, et le début de l’entrée de l’heure de la prière du Fajr et de celle du Cubh.
+
+Le second n’interdit pas de manger pendant le Ramadhân mais n’autorise pas la prière. C’est donc sur cette base que les scientifiques divergent ; certains ont adopté 19° comme méthode de calcul, c’est le cas du lien auquel ils renvoient, tandis que d’autres ont opté pour 12°, comme l’UOIF.
+
+Les horaires basés sur la première méthode sont considérés par beaucoup comme « en avance » pour le Cubh ; certaines mosquées y rajoutent une ½ heure pour rassurer les fidèles ; la prière du ‘Icha est par conséquent plus tard.
+
+Ceux basés sur la deuxième méthode rassurent quant à l’entrée l’heure de la prière du Fajr mais pas pendant le Ramadhan où le jeûne pourrait être compromis. De plus, ils questionnent toute l’année sur l’entrée du ‘Icha.
+
+En pratique, dans les pays situés en « zone normale » c’est 15° qui correspond à l’observation ; cette dernière méthode est appelée « North America » parce qu’utilisée par les musulmans du Nord de l’Amérique. Selon une thèse soutenue en Belgique sur les méthodes de détermination des horaires, les observations oculaires dans les pays musulmans, du Pakistan à l’Egypte, correspondent aux horaires déterminées par cette dernière méthode. C’est donc cette dernière que nous avons choisie, priant Dieu que cela corresponde au bon choix et donc à ce qui rencontre Sa Satisfaction. Nous avons rajouté aux heures de prières du Magrib (coucher du soleil) cinq minutes afin de tenir compte de la disparition totale du disque solaire, sachant que les heures calculées correspondent à celles où le disque touche l’horizon. </string>
